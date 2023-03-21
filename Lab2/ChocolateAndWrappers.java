@@ -1,3 +1,4 @@
+//Code with bugs
 public class ChocolatesAndWrappers {
 
     public static int countChoc(int chocolate, int wrap){
