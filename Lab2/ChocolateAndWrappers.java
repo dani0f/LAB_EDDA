@@ -1,3 +1,5 @@
+public class ChocolatesAndWrappers {
+
     public static int countChoc(int chocolate, int wrap){
         int newChocolate = chocolate / wrap;
         if(newChocolate < 1){
@@ -21,3 +23,4 @@
         int result = maxChoc(money,price,wrap);
         System.out.println(result);
     }
+}
