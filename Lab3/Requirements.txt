@@ -4,7 +4,7 @@ Se entregan las clases Student y Course con una construcción base.
 
 Debe agregar los métodos:
 
-  -verifyStudent(int number) que recibe un número y retorna true en caso de que exista en en el curso un alumno asociado a dicho número o false en caso contrario.
+  -verifyStudent(int number) que recibe un número y retorna true en caso de que exista en el curso un alumno asociado a dicho número o false en caso contrario.
 
   -insertStudent(int number, Student e) que ingresa un Estudiante a lista, procurando que dicho estudiante no esté previamente ingresado. Ojo que pueden existir Estudiantes que se llamen igual, pero no pueden tener el mismo identificador.
 
