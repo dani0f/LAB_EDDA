@@ -4,12 +4,12 @@ Se entregan las clases Student y Course con una construcción base.
 
 Debe agregar los métodos:
 
-  -verifyStudent(int numero) que recibe un número y retorna true en caso de que exista en en el curso un alumno asociado a dicho número o false en caso contrario.
+  -verifyStudent(int number) que recibe un número y retorna true en caso de que exista en en el curso un alumno asociado a dicho número o false en caso contrario.
 
-  -insertStudent(int numero, Estudiante e) que ingresa un Estudiante a lista, procurando que dicho estudiante no esté previamente ingresado. Ojo que pueden existir Estudiantes que se llamen igual, pero no pueden tener el mismo identificador.
+  -insertStudent(int number, Student e) que ingresa un Estudiante a lista, procurando que dicho estudiante no esté previamente ingresado. Ojo que pueden existir Estudiantes que se llamen igual, pero no pueden tener el mismo identificador.
 
   -printList() que imprime el Nombre y el Apellido de todos los Estudiantes en la Lista. Si la lista está vacía, deberá imprimir el mensaje “Lista vacía”.
 
-  -CountEqualNames(string nombre) que retorna la cantidad de Estudiantes en la lista que tienen el mismo nombre que el parámetro ingresado en el método. Ejemplo: Si se ingresa “Benjamín” retornará la cantidad de Estudiantes en la lista cuyo nombre sea “Benjamín”.
+  -CountEqualNames(string name) que retorna la cantidad de Estudiantes en la lista que tienen el mismo nombre que el parámetro ingresado en el método. Ejemplo: Si se ingresa “Benjamín” retornará la cantidad de Estudiantes en la lista cuyo nombre sea “Benjamín”.
 
 Finalmente, elabore un método main para que pueda probar la correcta codificación de su solución.
