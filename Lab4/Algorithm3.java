@@ -6,7 +6,7 @@ public class Algorithm3 {
 
     public static void main(String[] args)
     {
-        int[] arr = {1, 2, 3, 8, 4, 6};
+        int[] arr = {1, 2, 5, 7, 8, 9};
         long start = System.currentTimeMillis();
         System.out.println(binarySearch(2,arr, 0, arr.length -1));
         long end = System.currentTimeMillis();
