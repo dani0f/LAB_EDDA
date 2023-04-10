@@ -13,5 +13,4 @@ public class Algorithm1Sol {
         long end = System.currentTimeMillis();
         System.out.println("Time is " +  (end - start) + "ms" );
     }
-
 }
