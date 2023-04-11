@@ -1,10 +1,10 @@
 Sin modificar nada de lo previamente realizado (en todo el código), agregue a la clase "ListaSimple" los siguientes métodos:
 
--insertAtBegin(): agrega un nodo al inicio de la lista
+-insertAtBegin(): agrega un nodo al inicio de la lista.
 
--removeBegin(): elimina el primer nodo de la lista
+-removeBegin(): elimina el primer nodo de la lista.
 
--removeLast(): elimina el último nodo de la lista
+-removeLast(): elimina el último nodo de la lista.
 
 -reorderList(): reordena los nodos de la lista de menor a mayor en virtud de su contenido. Asuma que no hay nodos con elementos repetidos. 
 
