@@ -1,0 +1,18 @@
+Ejercicio 1:
+
+Dado un arreglo A que contiene números enteros (donde podría haber elementos repetidos), ordene la estructura considerando que el ordenamiento debe respetar que:
+A[0] >= A[1] <= A[2] >= A[3] <= A[4] >= ….
+Su solución debe tener complejidad temporal O(N).
+Ejemplo de input/output:
+Input: A[ ] = {12, 4, 6, 4, 2, 22, 30, 25}
+Output:  A[ ] = {12, 4, 6, 2, 22, 4, 30, 25}
+
+
+
+Ejercicio 2:
+
+Dado un arreglo A que contiene 3 números diferentes en cantidades de repeticiones de cada uno, se pide que programe un algoritmo genere un arreglo ordenado por todas las repeticiones del menor de los números, seguido por todas las repeticiones del número del medio y que continúe con las repeticiones del número mayor.
+Su solución debe tener complejidad temporal O(N) y no debe utilizar espacio adicional en estructura de datos (solo puede ocupar variables y el arreglo original).
+Ejemplo de input/ output:
+Input: A[ ] = {3, 5, 5, 3, 5, 9, 5, 9, 3, 3, 3, 5}
+Output: A[ ] ={3, 3, 3, 3, 3, 5, 5, 5, 5, 5, 9, 9}
