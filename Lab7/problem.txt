@@ -1,0 +1,7 @@
+En la Sala de Emergencia de un Hospital, los pacientes son catalogados de acuerdo a su nivel de criticidad.
+Considerando que la categoría "A" es la de personas de mayor importancia, pero que incluso dentro de ella se puede generar "mayor o menor riesgo vital" vamos a simular una cola con prioridad para la urgencia categoría A en virtud de lo siguiente:
+Los pacientes tienen nombre completo, rut y edad.
+Método insertar: cada vez que llega un paciente se encola dando prioridad a base de su edad (a mayor edad, mayor prioridad).
+Método eliminar: cuando un paciente pasa a ser atendido es "desencolado" (lo eliminamos de la cola).
+Método buscar: podemos buscar pacientes por su prioridad y, con ello, obtener sus datos. 
+Método imprimir lista: debemos tener la opción de ver los nombres de los pacientes que están en la cola ordenadamente (con base en su prioridad).
