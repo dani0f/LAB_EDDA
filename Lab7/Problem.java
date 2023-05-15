@@ -131,7 +131,7 @@ class MaxHeap
         //1: Carla
         //2: Sofía
         //3: Ana
-        System.out.println("Lista ordenada de pacientes en la cola");
+        System.out.println("Lista de pacientes en la cola");
         //Acá debe comenzar su trabajo
     }
 
