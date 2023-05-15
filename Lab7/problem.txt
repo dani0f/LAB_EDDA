@@ -4,4 +4,4 @@ Los pacientes tienen nombre completo, rut y edad.
 Método insertar: cada vez que llega un paciente se encola dando prioridad a base de su edad (a mayor edad, mayor prioridad).
 Método eliminar: cuando un paciente pasa a ser atendido es "desencolado" (lo eliminamos de la cola).
 Método buscar: podemos buscar pacientes por su prioridad y, con ello, obtener sus datos. 
-Método imprimir lista: debemos tener la opción de ver los nombres de los pacientes que están en la cola ordenadamente (con base en su prioridad).
+Método imprimir lista: debemos tener la opción de ver los nombres de los pacientes que están en la cola.
