@@ -80,6 +80,7 @@ public class HashMaker {
                 Video newVideo = arrayToVideo(newLines);
                 //key se define como la fecha en la que se publico el vídeo
                 String key = newVideo.getPublishedAt().substring(0,10);
+                System.out.println(key);
                 //Aquí realice la agrupación del mapa utilizando la variable key.
             }
         } catch (Exception e){
