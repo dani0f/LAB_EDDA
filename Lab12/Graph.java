@@ -136,7 +136,7 @@ public class Graph {
         boolean hasPath = DFP.hasPathTo(6);
         System.out.println(hasPath);
         if (hasPath) {
-            System.out.println("¿Cúal es el camino?");
+            System.out.println("¿Cuál es el camino?");
             Stack<Integer> path = DFP.pathTo(6);
             while (!path.isEmpty()) System.out.print(path.pop() + " ");
             System.out.println();
@@ -148,7 +148,7 @@ public class Graph {
         hasPath = BFP.hasPathTo(6);
         System.out.println(hasPath);
         if (hasPath) {
-            System.out.println("¿Cúal es el camino más corto?");
+            System.out.println("¿Cuál es el camino más corto?");
             Stack<Integer> path = BFP.pathTo(6);
             while( !path.isEmpty() ) System.out.print(path.pop() + " ");
             System.out.println();
